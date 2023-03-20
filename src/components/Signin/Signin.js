@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import firebaseConfig from "../../firebaseConfig";
+
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import './Sign.css';
-const Singin = () => {
+const Signin = () => {
   const auth = getAuth();
   const navigate = useNavigate();
 
@@ -61,4 +61,4 @@ const Singin = () => {
   );
 };
 
-export default Singin;
+export default Signin;
