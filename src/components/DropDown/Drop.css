@@ -1,0 +1,29 @@
+.dropdownProfile{
+    position: absolute;
+    top: 4.5rem;
+   
+    height: 60px;
+    right: 1.5rem;
+    width: 130px;
+    padding: 5px;
+    border: 0.5px solid #ced4da;
+    border-radius: 6px;
+}
+
+ul{
+    display: grid;
+}
+
+ul button{
+    
+        background: none!important;
+        border: none;
+        padding: 0!important;
+        /*optional*/
+        font-family: arial, sans-serif;
+      
+        color: #069;
+        
+        cursor: pointer;
+      
+}

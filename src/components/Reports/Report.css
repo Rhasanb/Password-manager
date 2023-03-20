@@ -1,0 +1,59 @@
+.bgMain{
+    background: #e6e8f2;
+    border-radius: 25px;
+    padding: 0.5rem;
+    margin: 50px 50px;
+    width: 300px;
+    height: 300px;
+    
+  }
+.services_box{
+    background: #fff;
+    border: 1px solid transparent ;
+    padding: 10px 10px;
+    box-shadow: 0 0 85px 0 #e9eefc;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    height: 280px;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+
+    
+  
+  }
+  
+  .services_box:hover{
+    transform: rotate(-1deg);
+    border: 1px solid #6f34fe;
+  
+  }
+  
+  
+  .commonIcons{
+    margin: 5px 5px;
+    width: 240px;
+    height: 100px;
+  
+  }
+  
+  .services_box-header{
+    color: #6f34fe;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .services_box-p{
+    font-size: 18px;
+    line-height: 18px;
+    color: #7d7789;
+    font-family: 'Lato', sans-serif;
+  
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

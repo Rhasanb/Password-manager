@@ -1,0 +1,238 @@
+
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+   
+
+    
+}
+
+hr{
+    margin: 5px 0;
+}
+   
+.main-box{
+    width: 200px;
+    
+    border: 0.5px solid #ced4da; 
+    border-radius: 0.2rem;
+    margin: 50px;
+   
+    
+}
+
+.container{
+    display: flex;
+    
+    height: 450px;
+
+}
+
+.secondary-box{
+    padding: 20px;
+}
+
+.filter{
+    width: 200px;
+    border: 0.5px solid #ced4da;
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+    border-radius: 0.2rem;
+    
+}
+
+input{
+    background-color: #fff;
+    border:0.5px solid #ced4da ;
+    padding: 5px 5px;
+}
+
+ a{
+    color: black;
+    display: grid;
+    
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+h3{
+    font: 14px ;
+    font-family: open sans;
+}
+
+.container-2{
+    width: 400px;
+    height: 400px;
+    margin: 50px 10px;
+
+  
+  
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    z-index: 20;
+   
+    
+}
+
+.img{
+    margin: 70px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.2;
+    position: relative;
+    
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+}
+
+.Vault-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button{
+    padding: 5px;
+    margin: 5px 5px 2px px;
+    
+    
+
+}
+
+button:hover{
+    color:  #175DDC;
+}
+
+
+#card{
+    width: 250px;
+    height: 150px;
+    border: 0.5px solid #ced4da; 
+    box-shadow: #ced4da;
+    margin: 50px;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.email{
+    width: 250px;
+    border: 0.5px solid #ced4da;
+    background-color: #8B6609; 
+    padding: 10px ;
+    text-align: center;
+
+    border-radius: 0.5rem;
+}
+
+.button{
+  justify-content: end;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+
+}
+
+p{
+    padding: 4px 4px;
+}
+
+.Link{
+    margin-top: 5px;
+}
+
+a:active {
+    color: rgb(170, 170, 158);
+  }
+
+
+
+
+
+  body.active-modal {
+    overflow-y: hidden;
+    
+}
+
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    display: block;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.input-field{
+    display: grid;
+}
+.hr{
+    width: 70%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer{
+    margin-left: 200px;   
+
+}
+
+.btn1{
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.btn2{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.select{
+    display: grid;
+}

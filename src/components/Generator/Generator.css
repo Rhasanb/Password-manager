@@ -1,0 +1,51 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+ 
+ 
+  
+}
+
+
+
+.container-9{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 210px;
+  margin-right: 100px;
+  
+}
+
+.box-4{
+  margin-top: 70px;
+}
+
+.span-body{
+  border: 0.5px solid #ced4da;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-3{
+  display: grid;
+  margin-right: 700px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.form-1{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.form-2{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+
