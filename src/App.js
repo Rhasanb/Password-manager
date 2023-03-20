@@ -4,7 +4,7 @@ import {
   Route
   } from "react-router-dom";
 import './App.css';
-import Button from "./components/Button/Button";
+
 import Generator from "./components/Generator/Generator";
 
 
@@ -37,7 +37,7 @@ function App() {
         <Route path="/reports" element={<Reports/>} />
         <Route path="/signup" element={<Singup />} />
         <Route path="/signin" element={<Singin />} />
-        <Route path="/logout" element={<Button />} />
+        
 
 
        

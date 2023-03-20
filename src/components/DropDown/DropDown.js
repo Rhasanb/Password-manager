@@ -20,7 +20,7 @@ const DropDown = () => {
         console.log(auth.currentUser);
       } else {
         // User is signed out
-        navigate("/singin");
+        navigate("/signin");
       }
     });
     return (

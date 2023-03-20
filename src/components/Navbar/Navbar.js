@@ -6,8 +6,6 @@ import DropDown from '../DropDown/DropDown';
 import './Navbar.css';
 
 
-
-
 const Navbar = () => {
     const [openProfile, setOpenprofile]= useState(false);
     const [fix,setfix] = useState(false);
